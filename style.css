@@ -1,0 +1,31 @@
+html, body {
+    font-family: sans-serif;
+}
+
+.content {
+    /* display: flex;
+    align-items: center; */
+    /* white-space: pre-wrap; */
+    width: 61vw;
+}
+
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background-color: black;
+    animation: blink .3s ease-in-out alternate infinite;
+    margin-left: 2.1px;
+
+    vertical-align: text-top;
+}
+
+@keyframes blink {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
